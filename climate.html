@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <title>THE   OCEAN</title>
+  </head>
+  <body class="climatebody">
+    <h2>
+        Climate
+      </h2>
+    
+    <div class="mainpage">
+        <div id="climateheader"> 
+    
+            <nav>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="food.html">FOOD SOURCE</a></li>
+                  <li><a href="oxygen.html">OXYGEN</a></li>
+                  <li><a href="climate.html">CLIMATE</a></li>
+        
+                </ul>
+              </nav>
+        </div> 
+    </div>
+   
+    <main class="climatep">
+        <div class="intro">
+            <h2 >How important is Climate in our lives?</h2>
+            <p>
+                Climate is the long-term pattern of weather conditions in any 
+                particular place. Climate affects all life in our planet in every way. 
+                Climate change affects the social and environmental 
+                determinants of health - clean air, safe drinking water, sufficient food and secure shelter. 
+                The potential future effects of global climate change include more frequent wildfires, longer periods 
+                of drought in some regions, and an increase in the wind intensity and 
+                rainfall from tropical cyclones. It has a huge effect on our livelihoods, our health, and our future.
+            </p>
+        </div>
+      <h2>How Oceans regulates Climate? </h2>
+      <div id="factors">
+       
+            <div class="factorsitem solarradiation">
+                <div>
+                    <h3 class="ptitle">Absorbing solar radiation like a solar panel</h3>
+                    <p class="description"> The majority of radiation from the Sun is absorbed by 
+                    the ocean, particularly in tropical waters around the equator, where the ocean 
+                    acts like a massive, heat-retaining solar panel. Land areas also absorb some 
+                    sunlight, and the atmosphere helps to retain heat that would otherwise quickly 
+                    radiate into space after sunset.
+                    </p>
+                </div>
+                <div>
+                    <img id="solar" src="images/sunoceannew.png" width="500px" height="400px"/>
+                </div>
+            </div>
+        
+            <div class="factorsitem evaporation">
+                <div id="evap">
+                    <img  src="images/Water-Cycle-Art2A_medium.png" width="500px" height="400px"/>
+                </div>
+                <div>
+                    <h3 class="ptitle">Evaporation
+                    </h3>
+                    <p class="description">Evaporation helps to distribute heat around the globe. When water molecules are heated,  
+                        they exchange freely with the air in a process called evaporation. Ocean water is constantly 
+                        evaporating, increasing the temperature and humidity of the surrounding air to form rain and 
+                        storms that are then carried by trade winds. Almost all rain that falls on land starts 
+                        off in the ocean. The tropics are particularly rainy because heat absorption, and thus ocean 
+                        evaporation, is highest in this area.
+                    </p>
+                </div>
+               
+            </div>
+        
+            <div class="factorsitem currents">
+                <div>
+                    <h3 class="ptitle">Ocean current as a conveyor belt
+                    </h3>
+                    <p class="description">Currents are movements of ocean water in a continuous flow, created largely 
+                        by surface winds but also partly by temperature and salinity gradients, Earth’s rotation, and 
+                        tides. Major current systems typically flow clockwise in the northern hemisphere and 
+                        counterclockwise in the southern hemisphere, in circular patterns that act much like a conveyor belt, 
+                        transporting warm water and precipitation from the equator toward the poles and cold water 
+                        from the poles back to the tropics. Ocean currents help to counteract the uneven distribution of solar 
+                        radiation reaching Earth’s surface.
+                        </p>
+                </div>
+                <div>
+                    <img id="current" src="images/great-ocean-conveyor-belt.png" width="600px" height="400px"/>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="playquiz">
+        <h2>Let's Play A Quiz</h2>
+    </div>  
+    <section id="gamespace" >
+       
+        <div>
+            <div class="centerbuttons">
+                <button id="startbutton" onclick="startGame()">Start</button>
+            </div>
+            
+            <div>
+                <h2 id="question">First que</h2>
+            </div>
+            <div id="options">
+                <div>
+                <input type="radio" id="answer1" name="answers" value="1"> 
+                <label id="anslabel1" for="answer1"></label><br>
+                </div>
+                <div>
+                <input type="radio" id="answer2" name="answers" value="2"> 
+                <label id="anslabel2" for="answer2"></label><br>
+                </div><div>
+                <input type="radio" id="answer3" name="answers" value="3"> 
+                <label id="anslabel3" for="answer3"></label><br>
+                </div>
+            </div>
+                <br />
+            <div id="correct"><h3>Correct!</h3></div>
+            <div id="wrong"><h3 class="wrong">Wrong,try again!</h3></div>
+            <br />
+            <div class="centerbuttons">
+                <button id="submitanswer"  onclick="submitAnswer()">Submit</button>
+            </div>
+            <div class="centerbuttons">
+                <button id="nextque"  onclick="nextQuestion()">Next Question</button>
+            </div>
+            <div class="centerbuttons">
+                <button id="restartbutton" onclick="restartGame()">Restart</button>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+      <footer>
+        <p>Image credit: NASA</p>
+        <p>https://images.nasa.gov/details/GSFC_20171208_Archive_e000413</p>
+        <p>https://oceancolor.gsfc.nasa.gov/gallery/774/</p>
+        <p>NASA image and VIdeo library</p>
+        <p>https://climatekids.nasa.gov/ocean/</p>
+        <p>https://gpm.nasa.gov/education/water-cycle</p>
+      </footer>
+      <script src="script.js" ></script>
+    
+  </body>
+</html>
